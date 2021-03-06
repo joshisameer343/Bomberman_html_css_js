@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+.grid {
+  height: 25rem;
+  width: 25rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-gap: 0px;
+}
+.container-panel {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.pressedBomb {
+  background-color: red;
+  background-image: url(https://img.icons8.com/emoji/48/000000/bomb-emoji.png);
+  background-position: center;
+  background-size: cover;
+}
+.pressedSafe {
+  background-color: green;
+}
